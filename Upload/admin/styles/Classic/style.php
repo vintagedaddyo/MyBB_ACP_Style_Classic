@@ -80,6 +80,7 @@ class Page extends DefaultPage
 		echo "<html xmlns=\"http://www.w3.org/1999/xhtml\"{$rtl}>\n";
 		echo "<head profile=\"http://gmpg.org/xfn/1\">\n";
 		echo "	<title>".$title."</title>\n";
+		echo "  <link rel=\"Shortcut icon\" href=\"styles/".$this->style."/images/favicon.ico\" />\n";
         echo "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n";		
 		echo "	<meta name=\"author\" content=\"MyBB Group\" />\n";
 		echo "	<meta name=\"copyright\" content=\"Copyright ".COPY_YEAR." MyBB Group.\" />\n";
