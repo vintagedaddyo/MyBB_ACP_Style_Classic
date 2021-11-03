@@ -1,13 +1,13 @@
 <?php
 /**
  *
- * MyBB: Blue Hybrid - Admin CP
+ * MyBB: Classic - Default 1.6 for 1.8 - Admin CP
  *
  * Filename: style.php
  *
  * Style Author: Vintagedaddyo
  *
- * V Site: http://community.mybb.com/user-6029.html
+ * V Site: https://github.com/vintagedaddyo/MyBB_ACP_Style_Classic
  *
  * MyBB Version: 1.8.x
  *
@@ -564,7 +564,7 @@ EOF;
 		echo "	<br style=\"clear: both;\" />";
 		echo "	</div>\n";
 		//echo "<div id=\"footer\"><p class=\"generation\">".$lang->sprintf($lang->generated_in, $totaltime, $debuglink, $querycount, $memory_usage)."</p><p class=\"powered\">Powered By <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB</a>, &copy; 2002-".COPY_YEAR." <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB Group</a>.</p></div>\n";
-		echo "<div id=\"footer\"><p class=\"generation\">".$lang->sprintf($lang->generated_in, $totaltime, $debuglink, $querycount, $memory_usage)."</p><p class=\"powered\">Powered By <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB</a>, &copy; 2002-".COPY_YEAR." <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB Group</a> All Rights Reserved.&nbsp;&nbsp;Theme \"Classic ACP\" ported by <a href=\"http://vintagedaddyo.com/mybb/\" target=\"_blank\"><b>Vintagedaddyo</b></a>.</p></div>\n";
+		echo "<div id=\"footer\"><p class=\"generation\">".$lang->sprintf($lang->generated_in, $totaltime, $debuglink, $querycount, $memory_usage)."</p><p class=\"powered\">Powered By <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB</a>, &copy; 2002-".COPY_YEAR." <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB Group</a> All Rights Reserved.&nbsp;&nbsp;Theme \"Classic ACP\" ported by <a href=\"https://github.com/vintagedaddyo/MyBB_ACP_Style_Classic\" target=\"_blank\"><b>Vintagedaddyo</b></a>.</p></div>\n";
 		if($mybb->debug_mode)
 		{
 			echo $db->explain;
